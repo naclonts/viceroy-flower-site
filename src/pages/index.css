@@ -16,14 +16,37 @@
   background-size: cover;
 }
 
-.landing-text {
+.landing-banner, .footer-section {
   background-color: white;
 }
-.landing-text h1 {
+.footer-section {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 3em;
+}
+.landing-banner h1 {
   font-size: 2em;
   padding: 0.1em;
 }
-
+.landing-splash-section a, .landing-splash-section .footer-section a {
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  color: #b2071d;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .landing-splash-section a {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  .footer-section {
+    display: none;
+  }
+}
 
 
 
