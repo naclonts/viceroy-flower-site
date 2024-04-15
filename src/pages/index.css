@@ -6,6 +6,27 @@
   padding: 0;
 }
 
+
+.landing-splash-section {
+  background-image: url("../images/arousal_jag_album_cover.jpg");
+  background-color: rgba(255, 255, 255, 0.3);
+  background-blend-mode: lighten;
+  min-height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.landing-text {
+  background-color: white;
+}
+.landing-text h1 {
+  font-size: 2em;
+  padding: 0.1em;
+}
+
+
+
+
 .text-section {
   flex: 1;
   flex-direction: column;
