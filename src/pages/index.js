@@ -23,7 +23,7 @@ const IndexPage = () => {
         </figure> */}
 
         <div className="landing-splash-section">
-            <a href="https://www.youtube.com/channel/UCEqkwVXS4DDawj2Mg3PoyJQ" target="_blank" rel="noopener noreferrer">
+            <a class="streaming-link" href="https://www.youtube.com/channel/UCEqkwVXS4DDawj2Mg3PoyJQ" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="brand-icon" icon={faYoutube} size="3x" />
               Stream here
             </a>
@@ -32,9 +32,21 @@ const IndexPage = () => {
             <h1>The Viceroy Flower</h1>
           </div>
 
+          <div className="landing-overlay news-section">
+            <a>
+              <h1>News</h1>
+            </a>
+          </div>
+
+          <div className="landing-overlay articles-section">
+            <a>
+              <h1>Crepuscularisms</h1>
+            </a>
+          </div>
+
           {/* Footer section */}
           <div className="footer-section">
-            <a href="https://www.youtube.com/channel/UCEqkwVXS4DDawj2Mg3PoyJQ" target="_blank" rel="noopener noreferrer">
+            <a class="streaming-link" href="https://www.youtube.com/channel/UCEqkwVXS4DDawj2Mg3PoyJQ" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="brand-icon" icon={faYoutube} size="3x" />
                 Stream here
               </a>
